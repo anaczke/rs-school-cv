@@ -1,4 +1,4 @@
 # rs-school-cv
-CV Markdown task for RS School
+CV HTML, CSS & Git Basics task for RS School
 
 My site is live at https://anaczke.github.io/rsschool-cv/cv
