@@ -1,0 +1,150 @@
+.container {
+  font-family: 'Dosis', sans-serif;
+  color: rgb(31, 31, 33);
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 12px 12px 18px -19px rgba(61, 62, 93, 0.5);
+  background-color: rgb(236, 235, 247);
+  padding: 20px;
+  border: 4px solid black;
+  box-shadow: 5px 5px 0 2px black;
+  box-sizing: border-box;
+}
+nav> ul{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+nav>ul>li>a{
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+nav>ul>li :hover{
+  border-bottom: 4px solid black;
+  transform: scaleX(1.1);
+  color:#e600ff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+
+.header-img {
+  align-self: right;
+  border: 4px solid black;
+  box-shadow: 5px 5px 0 2px black;
+}
+
+/* font */
+.font-play {
+  font-family: 'Syne', sans-serif;
+  background-color: #e600ff;
+  border: 4px solid black;
+  box-shadow: 3px 3px 0 2px black;
+  padding: 0 10px;
+}
+.syne{
+  font-family: 'Syne', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+body > div > header > div > div > h2 {
+  margin: 10px 0;
+}
+#bio {
+  border: 4px solid black;
+  box-shadow: 3px 3px 0 2px black;
+  padding: 20px 20px 20px 30px;
+  margin: 20px 0px 20px 40px;
+  background-color: #f8adf6;
+}
+#bio > h2 {
+  margin: 0;
+}
+#bio > p:nth-child(3) {
+  margin-bottom: 0;
+}
+.two-col-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 30px;
+}
+.col-one {
+  flex: 1;
+  padding-left: 10px;
+}
+#contacts {
+  padding-inline-start: 10px;
+}
+#contacts > li > a {
+  text-decoration: none;
+}
+#contacts > li {
+  list-style: none;
+
+}
+#contacts > li:nth-child(1) ::before {
+  content: url('./mail-sm-yel.svg');
+  padding-right: 20px;
+}
+#contacts > li:nth-child(2) ::before {
+    content: url('./linkedin-logo-sm-yel.svg');
+    padding-right: 20px;
+  }
+#contacts > li:nth-child(3) ::before {
+    content: url('./Github-logo-sm.svg');
+    padding-right: 20px;
+  }
+.col-two {
+  flex: 2;
+  padding-left: 10px;
+}
+.skills > ul {
+    list-style-type:square;
+    padding-right: 15px;
+    padding-inline-start: 30px;
+}
+.col-one > section:nth-child(5) > p > a{
+    padding-left: 30px;
+}
+.education > h3, p {
+margin-block-start:0;
+margin-block-end:0.3em;
+}
+
+.professional-exp > h2{
+    margin-block-end:0.3em;
+}
+
+pre {
+  border: 4px solid black;
+  margin-left: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border: 4px solid black;
+  box-shadow: 3px 3px 0 2px black;
+  margin:0 -20px -20px -20px;
+  padding: 20px;
+  font-size: 32px;
+  background: #fcc146;
+}
